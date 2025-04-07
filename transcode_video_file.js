@@ -5,7 +5,7 @@ const details = () => ({
   Type: "Video",
   Operation: "Transcode",
   Description: `High Quality FFMPEG transcoding settings. \n\n`,
-  Version: "2.10",
+  Version: "2.11",
   Tags: "pre-processing,ffmpeg,h265,h264,hevc,10bit,transcode",
   Inputs: [
     {
@@ -491,6 +491,8 @@ const audioCodecs = {
   "aac": 1,
   "ac3": 2,
   "dca": 3,
+  "dts": 3,
+  "dts-es": 3,
   "eac3": 4,
   "truehd": 8,
   "flac": 9,
